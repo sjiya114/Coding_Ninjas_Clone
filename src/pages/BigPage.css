@@ -1,0 +1,4 @@
+.animate-text.aos-animate {
+  color:white; /* Tailwind's orange-500 hex */
+  border-color: white;
+}
