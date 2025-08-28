@@ -2,8 +2,8 @@ import React from 'react'
 
 function Middle({title,d1,c1,d2,c2,d3,c3,d4,c4}) {
   return (
-    <div className='bg-gray-200 flex flex-row space-x-10 items-center justify-center pt-20 pb-20'>
-       <div className='flex flex-col w-[36%] space-y-4'>
+    <div className='bg-gray-200 flex flex-row max-md:flex-col max-md:pl-10 max-md:pr-10 max-md:space-y-6 space-x-10 items-center justify-center pt-20 pb-20'>
+       <div className='flex flex-col w-[36%] max-md:w-full max-md:pl-6 max-md:pr-6 space-y-4'>
         <img className='w-60 h-40' src="https://files.codingninjas.in/group-1437252822-1742977916.webp" alt="" />
         <p className='font-bold text-2xl'>Own your place in the future, get certified by {title}</p>
         <button className='font-bold border-2 border-black px-2 py-2 w-fit rounded-lg'>View full curriculum</button>

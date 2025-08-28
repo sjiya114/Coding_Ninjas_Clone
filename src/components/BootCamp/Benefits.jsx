@@ -4,7 +4,7 @@ function Benefits() {
   return (
     <div className='bg-zinc-950 py-20 px-10 text-white'>
       <h1 className='text-white text-3xl text-center'>Job Bootcamp benefits</h1>
-      <div className='flex flex-row  space-x-6 space-y-6 my-20 flex-wrap'>
+      <div className='flex flex-row max-md:flex-col space-x-6 space-y-6 my-20 flex-wrap'>
         <div  className='flex flex-col bg-zinc-900 shadow-sm shadow-white  space-y-2 px-4 py-4  rounded-lg'>
             <img className='w-10 h-10' src="https://ninjasfilestest.s3.amazonaws.com/group-1000003927-26480.svg" alt="" />
             <p>1:1 expert session</p>

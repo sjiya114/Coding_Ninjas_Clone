@@ -2,7 +2,7 @@ import React from 'react'
 
 function Bootcamp({ icon,heading,time, problem, candidate}) {
   return (
-    <div className='flex w-120 flex-col border-1 border-gray-200 rounded-lg'>
+    <div className='flex w-120 max-md:w-full max-md:mx-4 flex-col border-1 border-gray-200 rounded-lg'>
       <div className='flex bg-blue-100 items-center h-fit justify-center flex-row space-x-4 px-4 py-8'>
         <img className='w-16 h-16 rounded-full' src={icon} alt="" />
         <p className='font-semibold text-xl'>{heading}</p>

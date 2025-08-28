@@ -9,12 +9,31 @@ import { assets, xdata } from '../assets/assets';
 function Story() {
   return (
     <div className=' bg-black'>
-    <div className='ml-[18%] mr-[18%] flex flex-col space-y-20'>
+    <div className='ml-[18%] mr-[18%] max-md:ml-6 max-md:mr-6 flex flex-col space-y-20'>
        <div className=' flex flex-row mt-20 justify-between  '>
       <h1 className='text-white font-semibold text-lg'>Stories from people like you</h1>
       <h1 className='text-orange-600 font-semibold'>Read All success stories</h1>
     </div>
-    <div className='text-white flex flex-row space-x-4 items-center justify-center'>
+    <div>
+    <Swiper mousewheel={true}  slidesPerView={3} spaceBetween={16} modules={[Mousewheel]} className='md:hidden text-white'>
+      <SwiperSlide>
+         <button className='rounded-xl bg-gray-500 px-1 py-1'>Non tech to tech</button>
+      </SwiperSlide>
+      <SwiperSlide>
+         <button className='rounded-xl bg-gray-500 px-1 py-1'>Service to product</button>
+      </SwiperSlide>
+      <SwiperSlide>
+         <button className='rounded-xl bg-gray-500 px-1 py-1'>Tier 2/3 colleges</button>
+      </SwiperSlide>
+      <SwiperSlide>
+         <button className='rounded-xl bg-gray-500 px-1 py-1'>Job Bootcamp</button>
+      </SwiperSlide>
+      <SwiperSlide>
+         <button className='rounded-xl bg-gray-500 px-1 py-1'>Upskilling Courses</button>
+      </SwiperSlide>
+    </Swiper>
+     </div>
+    <div className='text-white max-md:hidden flex flex-row space-x-4 items-center justify-center'>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Non tech to tech</button>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Service to product</button>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Tier 2/3 colleges</button>
@@ -22,9 +41,22 @@ function Story() {
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Upskilling Courses</button>
     </div>
      <div>
-        <Swiper mousewheel={true} pagination={{type:"progressbar"}}   slidesPerView={3} spaceBetween={20} modules={[Pagination,Mousewheel]} >
+        <Swiper       breakpoints={{
+    320: {   // mobile
+      slidesPerView: 1,
+    },
+    640: {   // tablets
+      slidesPerView: 2,
+    },
+    1024: {  // laptops
+      slidesPerView: 3,
+    },
+    1280: {  // desktops
+      slidesPerView: 4,
+    },
+  }} mousewheel={true} pagination={{type:"progressbar"}} spaceBetween={20} modules={[Pagination,Mousewheel]} >
            {xdata.map((data)=>(
-           <SwiperSlide>
+           <SwiperSlide >
              <div className='bg-black flex flex-col w-80 space-y-2 px-2 rounded-lg py-4 items-center justify-center'>
                 <img src={data.profile} className='w-30 h-30 rounded-full' alt="" />
                 <h1 className='text-gray-600 font-bold'>{data.name}</h1>
@@ -51,7 +83,7 @@ function Story() {
          <div className='flex flex-col space-y-6 items-center justify-center'>
            <h1 className='font-bold text-xl text-white'>Trusted by learners</h1>
           <p>100000+ Coding Ninjas alumini from 1100+ companies & 4400+ colleges working in top product companies</p>
-          <div className='flex flex-row space-x-10'>
+          <div className='flex flex-row max-md:flex-col max-md:space-y-8 space-x-10'>
             <div className='flex flex-row space-x-2'>
               <img className='w-10 h-10' src={assets.facebook} alt="" />
               <div className='flex flex-col'>

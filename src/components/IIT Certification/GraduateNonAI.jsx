@@ -11,7 +11,6 @@ import Faculty from './Faculty'
 import Career from './Career'
 import Banner from './Banner'
 import Campus from './Campus'
-import Curriculum from './Curriculum'
 import Name from './Name'
 import Register from './Register'
 import Middle from './Middle'
@@ -37,7 +36,6 @@ function GraduateNonAI() {
         <Register name="NSDC" heading="Advanced Certification in GenAI for Non-tech Professionals
 " btn1="6 Months" btn3="online" btn2="10+ Projects" desc1="Get Industry ready with hands-on projects" desc2="Expert-led live classes with instant doubt support" desc3="AI-infused curriculum designed by experts"    />
         <Name name="Roles evolving globally, GenAI fuels the shift."/>
-        <Curriculum/>
         <Subbar/>
          <h1 className='text-center text-gray-600'>CURRICULUM</h1>
         <h1 className='text-center font-bold text-2xl mt-2'>Industry ready in 9 months</h1>

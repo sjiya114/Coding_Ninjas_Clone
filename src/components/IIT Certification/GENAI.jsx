@@ -11,7 +11,6 @@ import Faculty from './Faculty'
 import Career from './Career'
 import Banner from './Banner'
 import Campus from './Campus'
-import Curriculum from './Curriculum'
 import Name from './Name'
 import Register from './Register'
 import Middle from './Middle'
@@ -25,7 +24,6 @@ function GENAI() {
 " heading="Advanced Certification in GenAI for Non-tech Professionals by IITM Pravartak
 " btn1="6 months" btn3="online classes" btn2="10+ Projects" desc1="Get an Adv. certification from IITM Pravartak" desc2="Experience the IIT life with campus immersion" desc3="Alumni Status by E&ICT IIT Guwahati"    />
         <Name name="Roles evolving globally, GenAI fuels the shift."/>
-        <Curriculum/>
          <Subbar/>
            <h1 className='text-center text-gray-600'>CURRICULUM</h1>
         <h1 className='text-center font-bold text-2xl mt-2'>Industry ready in 6 months</h1>

@@ -5,7 +5,7 @@ function Fee1() {
     <div className='bg-white py-10'>
        <div className='max-w-screen-xl mx-auto'>
        <p className='font-bold text-3xl text-center'>Join Now <span className='text-indigo-600'>Limited</span>  Seats Left</p>
-      <div className='flex flex-row my-16  space-x-10'>
+      <div className='flex flex-row max-md:flex-col max-md:space-y-6 max-md:mx-6 my-16  space-x-10'>
         <div>
           <button  className='text-white font-bold bg-indigo-500 rounded-md px-2 py-2 w-60 h-20'>Total Program Fee
 ₹19,999</button>

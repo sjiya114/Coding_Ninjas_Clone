@@ -8,13 +8,13 @@ import mq5 from '../assets/mq5.png';
 import mq6 from '../assets/mq6.png';
 function Learn() {
   return (
-    <div className='flex flex-row ml-[18%] my-40 mr-[18%]'>
-       <div className='flex flex-col space-y-2 w-1/2' >
+    <div className='flex flex-row max-md:flex-col  ml-[18%]  max-md:ml-6  my-40 mr-[18%] max-md:mr-6'>
+       <div className='flex flex-col space-y-2 w-1/2 max-md:w-full' >
          <h1 className='font-semibold' >Learn By doing</h1>
          <p >Interesting projects to help you standout to recruiters</p>
        </div>
-       <div className='w-1/2 flex flex-row '>
-         <Marquee direction='up'>
+       <div className='w-1/2 flex max-md:mt-10 flex-row max-md:w-full '>
+         <Marquee direction='up'  >
           <img src={mq4} className='w-30 h-30 rounded-lg' alt="" />
           <img src={mq5} className='w-30 h-30  rounded-lg'  alt="" />
           <img src={mq6} className='w-30 h-30  rounded-lg' alt="" />

@@ -11,29 +11,29 @@ function BigPage() {
     <div className='bg-black text-white'>
        <div>
         <div className='flex flex-col font-bold  pt-20 items-center justify-center'>
-         <p  data-aos="fade down" className=' text-gray-600 text-7xl animate-text'>9 years of transforming tech careers</p>
+         <p  data-aos="fade down" className=' text-gray-600 text-7xl max-md:text-center max-md:text-4xl animate-text'>9 years of transforming tech careers</p>
          <div  data-aos="fade down"  className='flex flex-col mt-40 text-gray-600 space-y-2 items-center justify-center animate-text'>
             <img src={assets.one} className='bg-gray-400    rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl'>1.5 Lac+ learners</h1>
-            <p className='text-4xl font-semibold'>cracked dream roles at top tech companies</p>
+            <h1 className='text-8xl max-md:text-4xl max-md:text-center'>1.5 Lac+ learners</h1>
+            <p className='text-4xl font-semibold max-md:text-lg max-md:text-center '>cracked dream roles at top tech companies</p>
          </div>
             <p data-aos="fade down"  className='border-gray-600 border-1 border-dashed  h-80  animate-text '></p>
           <div    data-aos="fade down" className='flex flex-col text-gray-600 space-y-2 items-center justify-center animate-text'>
             <img src={assets.two} className='bg-gray-400 rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl'>1,400 Alumni in MAANG</h1>
-            <p className='text-4xl font-semibold'>& more in 103/111 Unicorns</p>
+            <h1 className='text-8xl max-md:text-center max-md:text-4xl'>1,400 Alumni in MAANG</h1>
+            <p className='text-4xl font-semibold max-md:text-center max-md:text-lg'>& more in 103/111 Unicorns</p>
          </div>
             <p className='border-gray-600 border-1 border-dashed  h-80   '></p>
          <div  data-aos="fade down" className='flex flex-col  text-gray-600  space-y-2 items-center justify-center animate-text'>
             <img src={assets.three} className='bg-gray-400 rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl'>1 Cr+ highest CTC</h1>
-            <p className='text-4xl font-semibold'>after completing the course</p>
+            <h1 className='text-8xl max-md:text-4xl max-md:text-center'>1 Cr+ highest CTC</h1>
+            <p className='text-4xl font-semibold max-md:text-lg max-md:text-center'>after completing the course</p>
          </div>
              <p className='border-gray-600 border-1 border-dashed  h-80   '></p>
           <div  data-aos="fade down" className='flex flex-col  text-gray-600  space-y-2 items-center justify-center animate-text'>
             <img src={assets.four} className='bg-gray-400 rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl'>128% average hike</h1>
-            <p className='text-4xl font-semibold'>via our placement cell</p>
+            <h1 className='text-8xl max-md:text-4xl max-md:text-center'>128% average hike</h1>
+            <p className='text-4xl font-semibold max-md:text-lg max-md:text-center'>via our placement cell</p>
          </div>
          </div>
          <div className='flex items-center mt-40 justify-center mb-20 animate-text'>
@@ -42,11 +42,11 @@ function BigPage() {
             <img src="https://files.codingninjas.com/arrow-double-down-32073.svg" alt="" />
         </button>
      </div>
-         <h1 className='text-center'>WHY US</h1>
-         <div className='text-white ml-[18%] flex flex-row space-x-10'>
+         <h1 className='text-center max-md:my-6'>WHY US</h1>
+         <div className='text-white ml-[18%] flex flex-row max-md:flex-col max-md:space-y-6 max-md:ml-6 max-md:mr-6 space-x-10'>
             <div className='flex flex-col'>
-              <div className='border-1 border-gray-200 rounded-lg w-100 h-100'>
-               <video src=""></video>
+              <div className='border-1 border-gray-200 rounded-lg w-100 h-100 max-md:w-full max-md:h-full'>
+               <video  src=""></video>
               </div>
               <div >
                <h1 className='text-yellow-700 font-semibold'>Ankush Singla</h1>
@@ -68,9 +68,9 @@ function BigPage() {
                </div>
             </div>
          </div>
-         <h1 className='text-blue-500 mb-10 ml-[18%] font-semibold text-center'>The Coding Ninjas advantage</h1>
-         <div className='text-white ml-[18%] '>
-            <table className='w-[90%] flex flex-col space-y-10 border-1 border-gray-100 rounded-lg px-4 py-4'>
+         <h1 className='text-blue-500 mb-10 ml-[18%] max-md:text-center max-md:ml-0 max-md:my-10 font-semibold text-center'>The Coding Ninjas advantage</h1>
+         <div className='text-white ml-[18%] max-md:ml-6 max-md:mr-6 '>
+            <table className='w-[90%] max-md:w-full flex flex-col space-y-10 border-1 border-gray-100 rounded-lg px-4 py-4'>
                 <tr>
                     <td className='w-[60%]'></td>
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.icon} alt="" /></td>

@@ -11,7 +11,6 @@ import Faculty from './Faculty'
 import Career from './Career'
 import Banner from './Banner'
 import Campus from './Campus'
-import Curriculum from './Curriculum'
 import Name from './Name'
 import Register from './Register'
 import Middle from './Middle'
@@ -38,7 +37,6 @@ function GraduateMultiAI() {
         <Register name="NSDC" heading="Advanced Certification in GenAI & Multi Agent Systems
 " btn1="6 months" btn2="online" btn3="Tech Professionals" desc1="Get Industry ready with hands-on projects" desc2="Expert-led live classes with instant doubt support" desc3="AI-infused curriculum designed by experts"    />
         <Name name="Future Proof Your career with GEN AI Skills"/>
-        <Curriculum/>
         <Subbar/>
         <h1 className='text-center text-gray-600'>CURRICULUM</h1>
         <h1 className='text-center font-bold text-2xl mt-2'>Industry ready in 9 months</h1>

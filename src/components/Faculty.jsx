@@ -8,7 +8,7 @@ import "swiper/css/pagination"
 
 function Faculty() {
   return (
-    <div className='mx-[18%]'>
+    <div className='mx-[18%] max-md:mx-6'>
      <h1 className='font-bold text-lg text-center my-20'>Faculty that brings out the best in you</h1>    
       <Swiper mousewheel={true} pagination={{type:"progressbar"}}  breakpoints={{
         0: { slidesPerView: 1 }, 

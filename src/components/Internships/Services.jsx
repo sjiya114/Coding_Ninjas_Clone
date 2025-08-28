@@ -5,7 +5,7 @@ function Services() {
     <div className='text-white max-w-screen-xl mx-auto my-10'>
      <h1 className='bg-indigo-950 text-center text-3xl font-bold'>Coding Ninjas <span className='text-red-300'>Career Services</span> </h1>
       <div className='flex flex-row items-center pt-10 justify-center bg-indigo-950'>
-     <div className='flex flex-row'>
+     <div className='flex flex-row max-md:flex-col max-md:space-y-6 '>
       <div className='flex  space-y-4 px-4 py-2 border-r-2 border-red-200 flex-col'>
         <div className='flex flex-col space-y-4'> 
          <img  className='w-10 h-10'  src="https://www.codingninjas.com/careercamp/wp-content/uploads/2025/03/job-interview.png" alt="" />

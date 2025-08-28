@@ -2,8 +2,8 @@ import React from 'react'
 
 function Front({first,second,title,img1,img2}) {
   return (
-    <div className='flex flex-row max-w-screen-xl mx-auto pt-10 text-white space-x-6 justify-center items-center'>
-    <div className='font-bold'>
+    <div className='flex flex-row  max-md:flex-col max-w-screen-xl mx-auto pt-10 text-white space-x-6 justify-center items-center'>
+    <div className='font-bold max-md:ml-10 max-md:mb-10'>
       <p className='text-xl'>India's first and only</p>
       <p className='text-2xl'> <span>{first}</span> in <span className='text-red-300'>{second} </span>  </p>
       <p className='px-2 py-2 w-fit bg-indigo-500 rounded-full'>by</p>
@@ -13,7 +13,7 @@ function Front({first,second,title,img1,img2}) {
        </div>
     </div>
     <div>
-      <form className='flex flex-col text-black rounded-lg space-y-2 px-10 py-10 mx-2 my-2 bg-white' action="">
+      <form className='flex flex-col max-md:ml-6 max-md:mr-6 max-md:mb-6 text-black rounded-lg space-y-2 px-10 py-10 mx-2 my-2 bg-white' action="">
         <p className='font-bold text-xl'>Book a FREE Webinar. NOW!</p>
         <p className='text-red-800 text-sm font-bold'>Last few seats left!</p>
         <input type="text" className='px-2 py-2 bg-gray-200 text-gray-600 rounded-md' placeholder='Enter your Name' />

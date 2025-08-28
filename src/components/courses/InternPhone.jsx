@@ -3,7 +3,7 @@ import React from 'react'
 function InternPhone() {
   return (
      <div>
-       <div className='border-white mt-8 rounded-4xl mx-12  w-[60%] h-fit border-1 shadow-md  shadow-spread-equal shadow-white'>
+       <div className='border-white mt-8 rounded-4xl mx-12  w-[60%] max-md:w-full h-fit border-1 shadow-md  shadow-spread-equal shadow-white'>
              <div className='rounded-4xl py-2 px-2 border-6 w-full h-full border-gray-200     bg-gray-200'>
             <form action="" className='bg-white rounded-4xl py-1 flex flex-col space-y-3 my-1  px-6 w-full h-full'>
                 <h1 className='text-black font-semibold text-lg pt-2'>Book a free live webinar to know more</h1>

@@ -2,8 +2,8 @@ import React from 'react'
 import Marquee from 'react-fast-marquee'
 function Syllabus({heading1,d1,d2,d3,d4,d5,d6,d7,t1,t2,t3,t4}) {
   return (
-    <div className='flex flex-col space-y-4 my-10 justify-center items-center'>
-      <div className='border-2 border-gray-500 rounded-2xl w-[40%] '>
+    <div className='flex flex-col space-y-4 my-10 justify-center max-md:ml-10 max-md:mr-10 items-center'>
+      <div className='border-2 border-gray-500 rounded-2xl w-[40%] max-md:w-full '>
         <h1 className='text-[#394871] border-b-gray-500 border-b-2 mx-5 py-4'>Learn technologies like</h1>
         <div>
            <Marquee>
@@ -16,7 +16,7 @@ function Syllabus({heading1,d1,d2,d3,d4,d5,d6,d7,t1,t2,t3,t4}) {
           </Marquee> 
         </div>
       </div>
-      <div className='border-2 border-gray-500 rounded-2xl px-4 py-4 w-[40%] '>
+      <div className='border-2 border-gray-500 rounded-2xl px-4 py-4 w-[40%]  max-md:w-full '>
         <h1 className='text-[#394871] border-b-gray-500 border-b-2 mx-5 py-4'>{heading1}</h1>
         <div className='flex flex-row mt-8 flex-wrap space-x-4 space-y-4'>
             <button className='flex flex-row space-x-2 px-2 py-2 rounded-lg border-1 border-gray-300'>
@@ -49,7 +49,7 @@ function Syllabus({heading1,d1,d2,d3,d4,d5,d6,d7,t1,t2,t3,t4}) {
             </button>
         </div>
       </div>
-      <div className='border-2 border-gray-500 px-4 py-4 rounded-2xl w-[40%] '>
+      <div className='border-2 border-gray-500 px-4 py-4 rounded-2xl w-[40%]  max-md:w-full '>
         <h1 className='text-[#394871] border-b-gray-500 border-b-2 mx-5 py-4'>Syllabus designed to take you ahead</h1>
         <p className='font-semibold px-4 mt-4 text-gray-900'>{t1}
            <ol className='text-gray-600 list-disc'>

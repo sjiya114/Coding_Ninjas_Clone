@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 function Views({desc1,desc2}) {
   return (
-      <div className='text-white w-120 bg-zinc-900 shadow-2xl shadow-black   flex flex-row'>
+      <div className='text-white w-120 max-md:w-full max-md:px-4 bg-zinc-900 shadow-2xl shadow-black   flex flex-row'>
         <div>
           <img className='w-14 h-14 border-1 border-zinc-800' src={assets.checked} alt="checked" />
         </div>

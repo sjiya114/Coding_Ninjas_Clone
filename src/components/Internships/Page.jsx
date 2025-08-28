@@ -3,7 +3,7 @@ import React from 'react'
 function Page( {name,image}) {
   return (
     <div className='bg-white'>
-      <div className='flex flex-row space-x-6 max-w-screen-xl mx-auto py-20'>
+      <div className='flex flex-row max-md:flex-col max-md:space-y-6 max-md:ml-6 space-x-6 max-w-screen-xl mx-auto py-20'>
       <div className='flex flex-col space-y-4'>
        <h1 className='font-bold text-3xl'>Feel like <span className='text-indigo-500'>Elite</span></h1>
         <p>Immerse yourself in your amazing success journey</p>
@@ -32,7 +32,7 @@ function Page( {name,image}) {
     </div>
      {/* partr2
       */}
-      <div className='flex flex-row space-x-40 max-w-screen-xl mx-auto '>
+      <div className='flex flex-row space-x-40 max-md:flex-col max-md:space-y-6 max-md:ml-6  max-w-screen-xl mx-auto '>
        <div className='flex flex-col space-y-4'>
        <h1 className='font-bold text-3xl'>Succeed like <span className='text-indigo-500'>Top 1%</span> </h1>
         <p>Unlock the path to success with the mindset and perseverance of an IITian.</p>
@@ -63,7 +63,7 @@ function Page( {name,image}) {
       </div>
     </div>
     {/* part3 */}
-    <div className='max-w-screen-xl mx-auto flex flex-row justify-between mt-10'>
+    <div className='max-w-screen-xl mx-auto flex flex-row max-md:flex-col max-md:space-y-6 max-md:ml-6  justify-between mt-10'>
         <div>
           <h1 className='font-bold text-3xl mb-4'>Program <span className='text-indigo-500'>Certificate</span> </h1>
           <p>IITM Pravartak will award a certificate of successful completion to participants who complete the program successfully with 70% of the score in the evaluation. You should have watched at least 70% of the course content in your classroom to be considered eligible for program completion criteria and receive a certificate from IITM Pravartak</p>

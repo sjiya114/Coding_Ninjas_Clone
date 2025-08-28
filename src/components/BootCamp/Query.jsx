@@ -3,11 +3,11 @@ import React from 'react'
 function Query() {
   return (
      <div className='bg-pink-50'>
-      <div className='ml-[18%] flex flex-row pt-20 space-x-10'>
+      <div className='ml-[18%] max-md:ml-4 max-md:mr-6  flex flex-row max-md:flex-col pt-20 space-x-10'>
         <div >
             <img className='mt-20' src="https://files.codingninjas.com/frame-1000004411-1706101156.svg" alt="" />
         </div>
-        <div className='w-[40%] flex flex-col space-y-4'>
+        <div className='w-[40%] max-md:w-full flex flex-col space-y-4'>
              <p className='text-2xl font-bold text-black'>Have questions?</p>
              <p className='text-2xl font-bold text-black'>Request a call from our counselors.</p>
               <form action="" className=' rounded-4xl py-1 flex flex-col space-y-3 my-1  w-full h-full'>
