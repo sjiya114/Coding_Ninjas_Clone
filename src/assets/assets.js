@@ -1152,6 +1152,6 @@ export const imdata=[
 
 
 export const assets={
-    icon,image,banner,checked,Visa,RazorPay,Paypal,Upi,emi,certificate,mentor1,mentor2,mentor3,
+    icon,image,banner,checked,Visa,RazorPay,Paypal,Upi,emi,certificate,mentor1,mentor2,mentor3,iitg,iitm,
     google,facebook,design,design2,tick,cross,correct,bag,faculty,chat,one,two,three,four,f1,f2,f3,iitd,amazon
 }

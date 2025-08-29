@@ -13,6 +13,12 @@ import DA from './components/Internships/DA'
 import DSA from './components/Internships/DSA'
 import GraduateMultiAI from './components/IIT Certification/GraduateMultiAI'
 import GraduateNonAI from './components/IIT Certification/GraduateNonAI'
+import Grads from './components/Grads'
+import Clg from './components/Clg'
+import NavComp from './components/NavComp'
+import IITCard from './components/IITCard'
+import JobCard from './components/JobCard'
+import NewCard from './components/NewCard'
 
 function App() {
   return (
@@ -29,6 +35,12 @@ function App() {
              <Route path='/newlaunch/0' element={<GraduateMultiAI/>} ></Route>
              <Route path='/newlaunch/1' element={ <GraduateNonAI/> } ></Route>
              <Route path='/newlaunch/2'element={<DataScience/>}  ></Route>
+              <Route path='/grads'element={<Grads/>}  ></Route>
+               <Route path='/clg'element={<Clg/>}  ></Route>
+                 <Route path='/nav'element={<NavComp/>}  ></Route>
+                  <Route path='/iitcard'element={<IITCard/>}  ></Route>
+                   <Route path='/jobcard'element={<JobCard/>}  ></Route>
+                    <Route path='/newcard'element={<NewCard/>}  ></Route>
       </Routes>
     </div>
     

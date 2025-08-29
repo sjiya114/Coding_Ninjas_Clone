@@ -5,7 +5,7 @@ import Phone from './Phone'
 
 function BannerPage() {
   return (
-    <div className='w-full mt-20 h-[100vh] max-lg:pl-20 max-xl:h-fit flex flex-row max-lg:flex-col bg-no-repeat max-md:pr-10 bg-cover ' style={{backgroundImage:`url(${assets.banner})`}} >
+    <div className='w-full mt-20 h-[100vh] max-lg:pl-20 max-xl:h-fit flex flex-row max-lg:flex-col bg-no-repeat max-md:pr-6 max-md:pl-6 bg-cover ' style={{backgroundImage:`url(${assets.banner})`}} >
       <div className='flex flex-col h-full justify-evenly w-1/2 max-md:w-full items-center '>
       <div className='flex flex-col ml-[36%] max-md:ml-8 max-md:mt-10 w-full max-md:space-y-4  space-y-10 '>
         <p className='text-green-400 font-semibold text-xl max-md:text-lg '  >Restricted by opportunities?</p>
