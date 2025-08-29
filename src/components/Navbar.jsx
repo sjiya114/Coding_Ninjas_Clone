@@ -4,9 +4,9 @@ import { FaChevronDown } from "react-icons/fa";
 import { assets } from '../assets/assets';
 function Navbar() {
     return (
-        <div className='flex flex-row overflow-hidden  fixed top-0 left-0 right-0  justify-between  items-center px-40 py-4  bg-white'>
+        <div className='flex flex-row overflow-hidden  fixed top-0 left-0 right-0  justify-between  items-center px-40 max-lg:px-4 py-4  bg-white'>
             <img src={assets.image} alt="" />
-            <div className='flex flex-row space-x-8'>
+            <div className='flex flex-row space-x-8 max-lg:hidden'>
                <div className='flex flex-row space-x-2'>
                 <NavLink className="text-blue-950 font-bold"  >Job BootCamp</NavLink>
                 <FaChevronDown className='mt-1' />

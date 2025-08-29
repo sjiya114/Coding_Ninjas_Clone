@@ -15,7 +15,7 @@ function Story() {
       <h1 className='text-orange-600 font-semibold'>Read All success stories</h1>
     </div>
     <div>
-    <Swiper mousewheel={true}  slidesPerView={3} spaceBetween={16} modules={[Mousewheel]} className='md:hidden text-white'>
+    <Swiper mousewheel={true}  slidesPerView={4} spaceBetween={6} modules={[Mousewheel]} className='md:hidden text-white'>
       <SwiperSlide>
          <button className='rounded-xl bg-gray-500 px-1 py-1'>Non tech to tech</button>
       </SwiperSlide>
@@ -33,13 +33,13 @@ function Story() {
       </SwiperSlide>
     </Swiper>
      </div>
-    <div className='text-white max-md:hidden flex flex-row space-x-4 items-center justify-center'>
+    {/* <div className='text-white max-md:hidden flex flex-row space-x-4 items-center justify-center'>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Non tech to tech</button>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Service to product</button>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Tier 2/3 colleges</button>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Job Bootcamp</button>
         <button className='rounded-xl bg-gray-500 px-1 py-1'>Upskilling Courses</button>
-    </div>
+    </div> */}
      <div>
         <Swiper       breakpoints={{
     320: {   // mobile
@@ -52,7 +52,7 @@ function Story() {
       slidesPerView: 3,
     },
     1280: {  // desktops
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
   }} mousewheel={true} pagination={{type:"progressbar"}} spaceBetween={20} modules={[Pagination,Mousewheel]} >
            {xdata.map((data)=>(

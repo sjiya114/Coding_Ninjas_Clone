@@ -3,16 +3,16 @@ import React from 'react'
 function Fee2() {
   return (
     <div className='bg-white py-20'>
-       <div className='flex flex-col max-w-screen-xl mx-auto space-y-6'>
+       <div className='flex flex-col  max-w-screen-xl max-md:w-full max-md:mx-4 mx-auto space-y-6'>
       <p className='font-bold text-3xl'>Join Now <span className='text-indigo-600'>Limited</span>  Seats Left</p>
-        <div className='flex flex-row space-x-4'>
+        <div className='flex flex-row max-md:flex-col max-md:justify-center max-md:items-center space-x-4'>
           <div className='flex flex-col space-y-5'>
              <button  className='text-white font-bold bg-indigo-500 rounded-md px-2 py-2 w-60 h-20'>Total Program Fee
 ₹79,999</button>
   <button className='text-indigo-600 border-2 border-indigo-600 px-2 py-2 w-60 h-20 rounded-md'>Book your seat now
 ₹2,500</button>
           </div>
-<div className='flex flex-col space-y-4'>
+<div className='flex flex-col max-md:justify-center max-md:items-center space-y-4'>
   <p className='font-bold'>Pay in instalments, as low as</p>
   <p className='font-bold text-2xl'>₹ 6,458/month</p>
   <p  className='font-bold text-gray-600 '>No Cost EMI available up to 12 months</p>

@@ -9,14 +9,14 @@ function Journey() {
         <button className='bg-orange-600 w-fit h-fit px-2 py-2 rounded-lg text-white font-semibold'   >Book a free webinar</button>
       </div>
       <div>
-        <div className='flex flex-row'>
-        <div>
+        <div className='flex flex-row mt-10 '>
+        <div className='max-md:absolute'>
            <p  className='px-1 py-1 rounded-lg absolute mt-14    rounded-tr-md bg-red-200 w-fit h-fit' >Excited!</p>
         <img className='rounded-full bg-white w-16 h-16 px-4 py-4  ml-6'  src="https://files.codingninjas.com/journey-rocket-1705661058.webp" alt="" />
        
        </div>
-         <div className=' border-b-2 h-1 mt-8 border-dotted  w-28 border-gray-400'></div>
-          <div className='flex flex-row space-x-20  bg-white px-4 py-4 rounded-2xl w-[500px] h-fit  '>
+         <div className=' border-b-2 h-1 mt-8 border-dotted max-md:hidden   w-28 border-gray-400'></div>
+          <div className='flex flex-row  max-md:pl-30 max-md:flex-col space-y-4  space-x-20  bg-white px-4 py-4 rounded-2xl w-[500px] max-md:w-full h-fit  '>
          <div>
            <p className='font-bold'>Kickstart your journey</p>
          </div>
@@ -29,15 +29,15 @@ function Journey() {
          </div>
          </div>
         </div>
-        <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-20 '></div>
+        <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-[50%] max-lg:mr-[52%] '></div>
        <div className='flex flex-row'>
-         <div>
+         <div className='max-md:absolute'>
             <p className='px-1 py-1 absolute mt-14  rounded-lg rounded-tr-md bg-pink-200 w-fit h-fit'>Confident</p>
         <img className='rounded-full bg-white w-16 h-16 px-4 py-4  ml-6' src="https://files.codingninjas.com/journey-confident-1-1705660869.webp" alt="" />
       
        </div>
-         <div className=' border-b-2 h-1 mt-8 border-dotted   w-28 border-gray-400'></div>
-          <div className='flex flex-row space-x-20  bg-white px-4 py-4 rounded-2xl w-[500px] h-fit  '>
+         <div className=' border-b-2 h-1 mt-8 border-dotted max-md:hidden    w-28 border-gray-400'></div>
+          <div className='flex flex-row  max-md:pl-30 space-x-20 max-md:flex-col space-y-4  bg-white px-4 py-4 rounded-2xl w-[500px] max-md:w-full h-fit  '>
          <div>
            <p className='font-bold'>Master full stack by solving real problems</p>
          </div>
@@ -50,16 +50,16 @@ function Journey() {
          </div>
          </div>
        </div>
-              <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-20 '></div>
+              <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-[50%] max-lg:mr-[52%] '></div>
         <div className='flex flex-row'>
-            <div>
+            <div className='max-md:absolute'>
                <p className='px-1 py-1 absolute mt-14  rounded-lg rounded-tr-md bg-blue-200 w-fit h-fit'>Supported</p>
         <img className='rounded-full bg-white w-16 h-16 px-4 py-4  ml-6' src="https://files.codingninjas.com/journey-supported-1705660976.webp" alt="" />
        
        </div>
 
-           <div className=' border-b-2 h-1 mt-8 border-dotted  w-28 border-gray-400'></div>
-           <div className='flex flex-row space-x-20  bg-white px-4 py-4 rounded-2xl w-[500px] h-fit  '>
+           <div className=' border-b-2 h-1 mt-8 border-dotted max-md:hidden  w-28 border-gray-400'></div>
+           <div className='flex flex-row  max-md:pl-30 space-x-20  max-md:flex-col space-y-4 bg-white px-4 py-4 rounded-2xl w-[500px] max-md:w-full h-fit  '>
          <div>
            <p className='font-bold'>Experts to help you prepare for interviews</p>
          </div>
@@ -75,15 +75,15 @@ function Journey() {
 
 
         </div>
-             <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-20 '></div>
+             <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-[50%] max-lg:mr-[52%] '></div>
          <div className='flex flex-row'>
-          <div>
+          <div className='max-md:absolute'>
              <p className='px-1 py-1 absolute mt-14  rounded-lg rounded-tr-md bg-red-200 w-fit h-fit'>Resilient</p>
         <img className='rounded-full bg-white w-16 h-16 px-4 py-4  ml-6' src="https://files.codingninjas.com/journey-resilient-1705660976.webp" alt="" />
        
        </div>
-           <div className=' border-b-2 h-1 mt-8 border-dotted  w-28 border-gray-400'></div>
-            <div className='flex flex-row space-x-20  bg-white px-4 py-4 rounded-2xl w-[500px] h-fit  '>
+           <div className=' border-b-2 h-1 mt-8 border-dotted max-md:hidden   w-28 border-gray-400'></div>
+            <div className='flex flex-row space-x-20 max-md:pl-30 max-md:flex-col space-y-4  bg-white px-4 py-4 rounded-2xl w-[500px] max-md:w-full h-fit  '>
          <div>
            <p className='font-bold'>Catch the eye of your dream companies</p>
          </div>
@@ -96,15 +96,15 @@ function Journey() {
          </div>
          </div>
          </div>
-              <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-20 '></div>
+              <div className='h-20 border-r-2 border-gray-500 border-dotted mr-60 max-md:mr-[50%] max-lg:mr-[52%] '></div>
          <div className='flex flex-row'>
-            <div>
+            <div className='max-md:absolute'>
                 <p className='px-1 py-1 absolute mt-14  rounded-lg rounded-tr-md bg-blue-300 w-fit h-fit'>Over the moon</p>
         <img className='rounded-full bg-white w-16 h-16 px-4 py-4  ml-6' src="https://files.codingninjas.com/journey-over-the-moon-1705660976.webp" alt="" />
       
        </div>
-           <div className=' border-b-2 h-1 mt-8 border-dotted  w-28 border-gray-400'></div>
-           <div className='flex flex-row space-x-20  bg-white px-4 py-4 rounded-2xl w-[500px] h-fit  '>
+           <div className=' border-b-2 h-1 mt-8 max-md:hidden  border-dotted  w-28 border-gray-400'></div>
+           <div className='flex flex-row  max-md:pl-30 space-x-20 max-md:flex-col  space-y-4  bg-white px-4 py-4 rounded-2xl w-[500px] max-md:w-full h-fit  '>
          <div>
            <p className='font-bold'>Nail the interview for your dream job</p>
          </div>

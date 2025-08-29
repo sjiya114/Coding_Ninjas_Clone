@@ -19,7 +19,7 @@ function Offer() {
             <button className='bg-gray-300 font-semibold rounded-r-full px-2 py-1' >For graduates</button>
         </div>
         {/* bootcamp */}
-        <div className='flex flex-row max-md:flex-col  max-md:space-y-4  space-x-6 max-md:space-x-0'>
+        <div className='flex flex-row flex-wrap max-md:flex-col  space-y-4  space-x-6 max-md:space-x-0'>
          {cdata.map((data,index)=>(
            <a href={`/bootcamp/${index}`} className='cursor-pointer'> <Bootcamp key={index}  icon={data.icon} heading={data.heading} candidate={data.candidate} time={data.time} problem={data.problem}   /></a>
          ))}
@@ -40,9 +40,9 @@ function Offer() {
       slidesPerView: 1,
     },
     640: {   // tablets
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
-    940:
+    1200:
     {
       slidesPerView:3
     }
@@ -75,9 +75,12 @@ function Offer() {
       slidesPerView: 1,
     },
     640: {   // tablets
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
-    940:{ slidesPerView:3}
+    1200:
+    {
+      slidesPerView:3
+    }
   }}
             mousewheel={true}  spaceBetween=
       {20} modules={[Mousewheel,Pagination]} >
@@ -96,7 +99,7 @@ function Offer() {
             <h1 className='font-semibold text-lg'>New Launches</h1>
             <button className='bg-gray-300 font-semibold rounded-r-full px-2 py-1' >For graduates</button>
         </div>
-        <div className='flex flex-row max-md:flex-col max-md:space-y-4 space-x-6 max-md:space-x-0'>
+        <div className='flex flex-row flex-wrap max-md:flex-col space-y-4 space-x-6 max-md:space-x-0'>
          {gdata.map((data,index)=>(
            <a href={`/newlaunch/${index}`} className='cursor-pointer'> <Bootcamp key={index}  icon={data.icon} heading={data.heading} candidate={data.candidate} time={data.time} problem={data.problem}   /></a>
          ))}

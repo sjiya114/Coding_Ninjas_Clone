@@ -12,8 +12,9 @@ function Faculty() {
      <h1 className='font-bold text-lg text-center my-20'>Faculty that brings out the best in you</h1>    
       <Swiper mousewheel={true} pagination={{type:"progressbar"}}  breakpoints={{
         0: { slidesPerView: 1 }, 
+        450:{slidesPerView:2},
         768: { slidesPerView: 2 }, 
-        1040:{slidesPerView:3}
+        1260:{slidesPerView:3}
       }}   spaceBetween={20} modules={[Pagination,Mousewheel]} >
         {facultyData.map((data)=>(
            <SwiperSlide>

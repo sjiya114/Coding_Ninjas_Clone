@@ -14,26 +14,26 @@ function BigPage() {
          <p  data-aos="fade down" className=' text-gray-600 text-7xl max-md:text-center max-md:text-4xl animate-text'>9 years of transforming tech careers</p>
          <div  data-aos="fade down"  className='flex flex-col mt-40 text-gray-600 space-y-2 items-center justify-center animate-text'>
             <img src={assets.one} className='bg-gray-400    rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl max-md:text-4xl max-md:text-center'>1.5 Lac+ learners</h1>
-            <p className='text-4xl font-semibold max-md:text-lg max-md:text-center '>cracked dream roles at top tech companies</p>
+            <h1 className='text-8xl max-md:text-4xl text-center'>1.5 Lac+ learners</h1>
+            <p className='text-4xl font-semibold max-md:text-lg text-center '>cracked dream roles at top tech companies</p>
          </div>
             <p data-aos="fade down"  className='border-gray-600 border-1 border-dashed  h-80  animate-text '></p>
           <div    data-aos="fade down" className='flex flex-col text-gray-600 space-y-2 items-center justify-center animate-text'>
             <img src={assets.two} className='bg-gray-400 rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl max-md:text-center max-md:text-4xl'>1,400 Alumni in MAANG</h1>
-            <p className='text-4xl font-semibold max-md:text-center max-md:text-lg'>& more in 103/111 Unicorns</p>
+            <h1 className='text-8xl text-center max-md:text-4xl'>1,400 Alumni in MAANG</h1>
+            <p className='text-4xl font-semibold text-center max-md:text-lg'>& more in 103/111 Unicorns</p>
          </div>
             <p className='border-gray-600 border-1 border-dashed  h-80   '></p>
          <div  data-aos="fade down" className='flex flex-col  text-gray-600  space-y-2 items-center justify-center animate-text'>
             <img src={assets.three} className='bg-gray-400 rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl max-md:text-4xl max-md:text-center'>1 Cr+ highest CTC</h1>
-            <p className='text-4xl font-semibold max-md:text-lg max-md:text-center'>after completing the course</p>
+            <h1 className='text-8xl max-md:text-4xl text-center'>1 Cr+ highest CTC</h1>
+            <p className='text-4xl font-semibold max-md:text-lg text-center'>after completing the course</p>
          </div>
              <p className='border-gray-600 border-1 border-dashed  h-80   '></p>
           <div  data-aos="fade down" className='flex flex-col  text-gray-600  space-y-2 items-center justify-center animate-text'>
             <img src={assets.four} className='bg-gray-400 rounded-2xl px-1 py-1 w-20 h-20' alt="" />
-            <h1 className='text-8xl max-md:text-4xl max-md:text-center'>128% average hike</h1>
-            <p className='text-4xl font-semibold max-md:text-lg max-md:text-center'>via our placement cell</p>
+            <h1 className='text-8xl max-md:text-4xl :text-center'>128% average hike</h1>
+            <p className='text-4xl font-semibold max-md:text-lg text-center'>via our placement cell</p>
          </div>
          </div>
          <div className='flex items-center mt-40 justify-center mb-20 animate-text'>

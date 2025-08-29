@@ -2,7 +2,7 @@ import React from 'react'
 
 function Front({ name, heading,desc1,desc2,desc3,btn1,btn2,btn3 }) {
     return (
-        <div className='w-full mt-10'>
+        <div className='w-full max-md:px-4 mt-10'>
             <p className='text-gray-500'>{name}&nbsp;|&nbsp;Coding Ninjas </p>
             <h1 className='text-2xl font-bold'>{heading}</h1>
             < div className='flex mt-6 flex-row space-x-4 border-b-1 pb-10 border-gray-500'>

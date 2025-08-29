@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets'
 
 function Table() {
   return (
-    <div className='my-20 ml-[18%]'>
+    <div className='my-20 ml-[18%] max-md:ml-6 max-md:mr-6'>
                 <table className=' border-2 rounded-2xl border-gray-300 px-2 py-2   '>
                     <thead className='bg-gray-200'>
                         <tr>

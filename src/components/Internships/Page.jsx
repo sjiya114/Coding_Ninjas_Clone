@@ -32,7 +32,7 @@ function Page( {name,image}) {
     </div>
      {/* partr2
       */}
-      <div className='flex flex-row space-x-40 max-md:flex-col max-md:space-y-6 max-md:ml-6  max-w-screen-xl mx-auto '>
+      <div className='flex flex-row space-x-40 max-md:flex-col max-md:space-y-6 max-md:ml-6 max-md:pr-6  max-w-screen-xl max-md:space-x-0 max-md:w-full mx-auto '>
        <div className='flex flex-col space-y-4'>
        <h1 className='font-bold text-3xl'>Succeed like <span className='text-indigo-500'>Top 1%</span> </h1>
         <p>Unlock the path to success with the mindset and perseverance of an IITian.</p>
@@ -55,11 +55,11 @@ function Page( {name,image}) {
             </div>
         </div>
       </div>
-      <div className='flex flex-row space-x-2 flex-wrap'>
-        <img className='w-60 h-40 rounded-lg' src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/7-1-768x432.jpg" alt="" />
-        <img className='w-64 h-60 rounded-lg' src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/8-1-768x432.jpg" alt="" />
-        <img className='w-60 h-40 rounded-lg' src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/9-1-768x432.jpg" alt="" />
-        <img className='w-64 h-60 rounded-lg'  src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/6-1-768x432.jpg" alt="" />
+      <div className='flex flex-row space-x-2 max-md:space-y-4 flex-wrap'>
+        <img className='w-60 h-40 max-md:w-80 rounded-lg' src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/7-1-768x432.jpg" alt="" />
+        <img className='w-64 h-60 max-md:w-80 rounded-lg' src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/8-1-768x432.jpg" alt="" />
+        <img className='w-60 h-40 max-md:w-80 rounded-lg' src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/9-1-768x432.jpg" alt="" />
+        <img className='w-64 h-60 max-md:w-80 rounded-lg'  src="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/6-1-768x432.jpg" alt="" />
       </div>
     </div>
     {/* part3 */}

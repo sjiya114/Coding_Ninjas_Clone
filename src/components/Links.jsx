@@ -3,10 +3,10 @@ import { assets } from '../assets/assets'
 
 function Links() {
   return (
-    <div className='bg-black text-white'>
-      <div className='max-w-screen-xl mx-auto  flex flex-col space-y-4'>
-        <h1  className='font-semibold text-lg mt-40'>Important Links</h1>
-      <div className='flex flex-row max-md:flex-col '>
+    <div className='bg-black text-white pl-6 max-md:pr-6 ' >
+      <div className='max-w-screen-xl mx-auto max-md:w-full  flex flex-col space-y-4'>
+        <h1  className='font-semibold text-lg mt-40 max-md:mt-10'>Important Links</h1>
+      <div className='flex flex-row max-md:flex-col max-md:space-y-2 '>
         <div>
           <p  className='font-semibold text-sm text-wrap w-40'>Job Bootcamp for professionals</p>
         </div>
@@ -16,7 +16,7 @@ function Links() {
         </div>
         
       </div>
-      <div className='flex flex-row  max-md:flex-col'>
+      <div className='flex flex-row  max-md:flex-col max-md:space-y-2 '>
         <div>
           <p  className='font-semibold text-sm text-wrap w-40 '>IIT Certifications for Professionals</p>
         </div>
@@ -26,7 +26,7 @@ function Links() {
         <a className='text-gray-300' href="">Generative AI for Non-Tech Professionals by IITM Pravartak, TIH IIT Madras</a>
         </div>
       </div>
-      <div className='flex flex-row max-md:flex-col'>
+      <div className='flex flex-row max-md:flex-col max-md:space-y-2 '>
         <div>
          <p  className='font-semibold text-sm text-wrap w-40 '>IIT Certifications for Students</p>
         </div>
@@ -36,7 +36,7 @@ function Links() {
          <a className='text-gray-300' href="">Training and Internship Certification in Full Stack Web Development with Generative AI + DSA by IITM Pravartak, TIH IIT Madras</a>
         </div>
       </div>
-      <div className='flex flex-row max-md:flex-col text-sm'>
+      <div className='flex flex-row max-md:flex-col max-md:space-y-2  text-sm'>
         <p  className='font-semibold  text-wrap w-40'>Our New Launches</p>
         <a className='text-gray-300 text-xs font-bold' href="">Advanced Certification in GenAI & Multi Agent Systems</a>
       </div>
@@ -45,13 +45,13 @@ function Links() {
          <p  className='font-semibold text-wrap w-40'>We accept payments using:</p>
         </div>
         <div className='flex flex-row flex-wrap space-x-12'>
-            <div className='flex flex-row flex-wrap  space-x-4'>
+            <div className='flex flex-row flex-wrap space-y-5 space-x-4'>
           <img src={assets.Visa} className='w-10 h-10 rounded-lg' alt="" />
           <img src={assets.Paypal} className='w-24 h-10  rounded-lg' alt="" />
           <img src={assets.Upi} className='w-20 h-10  rounded-lg' alt="" />
           <img src={assets.emi} className='w-20 h-10  rounded-lg' alt="" />
         </div>
-        <div className='flex flex-row  space-x-4'>
+        <div className='flex flex-row max-md:mt-4  space-x-4'>
           <button className='text-white bg-blue-600  h-10 px-1 py-1 rounded-lg'  >100% safe and secure payment</button>
           <img src={assets.RazorPay} className='w-24 h-10 rounded-lg' alt="" />
         </div>

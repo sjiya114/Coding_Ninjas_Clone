@@ -3,8 +3,8 @@ import { assets } from '../../assets/assets'
 
 function Footer() {
   return (
-    <div className='bg-blue-950 h-screen'>
-        <div className='flex flex-row max-md:flex-col justify-evenly pt-40 py-20 border-gray-500 max-w-screen-xl mx-auto border-b-1  text-white'>
+    <div className='bg-blue-950 h-screen max-md:h-full'>
+        <div className='flex flex-row max-md:flex-col  justify-evenly pt-40 max-md:pt-10 max-md:ml-10 py-20 border-gray-500 max-w-screen-xl mx-auto border-b-1  text-white'>
 
            <div>
         <img src={assets.image} className='mb-4' alt="" />

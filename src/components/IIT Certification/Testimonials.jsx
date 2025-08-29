@@ -12,9 +12,9 @@ function Testimonials() {
          <div className='w-full mr-[10%] ml-[20%] mt-20'>
         <Swiper className='w-full '   breakpoints={{
     320: { slidesPerView: 1 },
-    480: { slidesPerView: 1.5 },
+    480: { slidesPerView: 2 },
     640: { slidesPerView: 2 },
-    940:{ slidesPerView:3}
+    940:{ slidesPerView:2}
   }}        spaceBetween={10}  mousewheel={true}  modules={[Pagination,Mousewheel]} >
            {testimonialData.map((data)=>(
             <SwiperSlide >

@@ -32,7 +32,7 @@ function Benefits() {
         </div>
       </div>
       <h1 className='text-white text-3xl text-center my-20'>Benefits beyond learning</h1>
-       <div className='flex flex-row space-x-6 flex-wrap'>
+       <div className='flex flex-row space-x-6 space-y-4 flex-wrap'>
         <div  className='flex flex-col  bg-zinc-900  shadow-sm shadow-white   px-4 py-4 space-y-2  rounded-lg'>
             <img  className='w-10 h-10' src="https://ninjasfilestest.s3.amazonaws.com/group-1000004175-26484.svg" alt="" />
             <p>Github profile</p>
