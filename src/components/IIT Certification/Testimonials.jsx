@@ -16,8 +16,8 @@ function Testimonials() {
     640: { slidesPerView: 2 },
     940:{ slidesPerView:2}
   }}        spaceBetween={10}  mousewheel={true}  modules={[Pagination,Mousewheel]} >
-           {testimonialData.map((data)=>(
-            <SwiperSlide >
+           {testimonialData.map((data,index)=>(
+            <SwiperSlide key={index} >
               <div className='flex flex-col w-[400px] space-y-2 border-1 border-gray-400 rounded-lg'>
                <img className='w-20 h-20' src={data.icon} alt="" />
                <p className='text-gray-500'>{data.review}</p>

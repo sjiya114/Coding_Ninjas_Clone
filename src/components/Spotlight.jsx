@@ -15,8 +15,8 @@ function Spotlight() {
       </div>
       <div className='flex flex-row space-x-2 flex-wrap w-[60%]  '>
          {
-          spotData.map((data)=>(
-            <SpotlightCard desc={data.description} image={data.image}  />
+          spotData.map((data,index)=>(
+            <SpotlightCard key={index} desc={data.description} image={data.image}  />
           ))
          }
       </div>

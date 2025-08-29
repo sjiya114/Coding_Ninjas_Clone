@@ -30,7 +30,7 @@ function Create({dir}) {
          </div>
          <div className='w-[60%] max-md:w-full'>
            <Marquee>
-             {insightData.map((data)=>(<div className='shadow-2xl flex flex-col items-center justify-center w-40 h-60 bg-white shadow-gray-300 rounded-lg'>
+             {insightData.map((data,index)=>(<div key={index} className='shadow-2xl flex flex-col items-center justify-center w-40 h-60 bg-white shadow-gray-300 rounded-lg'>
               <img className='w-20 h-20 rounded-full' src={data.profile} alt="" />
               <img className='w-20 h-20' src={data.company} alt="" />
               <p className='text-sm text-gray-500'>{data.desc}</p>

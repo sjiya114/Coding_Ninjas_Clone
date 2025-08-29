@@ -4,8 +4,8 @@ import { Pdata } from '../../assets/assets';
 function Marque() {
   return (
      <Marquee>
-        {Pdata.map((data)=>(
-            <img className='w-100 h-100' src={data.image} alt="" />
+        {Pdata.map((data,index)=>(
+            <img key={index} className='w-100 h-100' src={data.image} alt="" />
         ))}
      </Marquee>
   )

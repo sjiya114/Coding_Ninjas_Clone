@@ -7,8 +7,8 @@ function FacultyCard({  profile,username,name,images,work,skill1,skill2,skill3,l
        <h1 className='font-semibold'>{username}</h1>
        <p>{name}</p>
        <div className='flex flex-row'>
-       {images.map((image)=>(
-        <img src={image} className='w-10 h-10' alt="" />
+       {images.map((image,index)=>(
+        <img src={image} key={index} className='w-10 h-10' alt="" />
        ))}
        </div>
        <div className='flex flex-col items-center justify-center'>

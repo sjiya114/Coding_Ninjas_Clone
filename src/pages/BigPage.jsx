@@ -71,12 +71,15 @@ function BigPage() {
          <h1 className='text-blue-500 mb-10 ml-[18%] max-md:text-center max-md:ml-0 max-md:my-10 font-semibold text-center'>The Coding Ninjas advantage</h1>
          <div className='text-white ml-[18%] max-md:ml-6 max-md:mr-6 '>
             <table className='w-[90%] max-md:w-full flex flex-col space-y-10 border-1 border-gray-100 rounded-lg px-4 py-4'>
+                <thead>
                 <tr>
                     <td className='w-[60%]'></td>
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.icon} alt="" /></td>
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.cross} alt="" /></td>
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.correct} alt="" /></td>
                 </tr>
+                </thead>
+                 <tbody className='flex flex-col space-y-2'>
                 <tr  className=''>
                     <td className='w-[60%]'>Structured + problem solving based</td>
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.tick} alt="" /></td>
@@ -101,6 +104,7 @@ function BigPage() {
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.cross} alt="" /></td>
                     <td className='w-[30%]'><img className='w-8 h-8' src={assets.cross} alt="" /></td>
                 </tr>
+                </tbody>
             </table>
             <div>
                 <div>

@@ -9,8 +9,8 @@ function Marque() {
     <h1 className='font-bold text-lg text-center mt-30 mb-12'>Our Ninjas at top tech companies</h1>
     <div className='flex flex-row space-x-6 mb-40 mx-[18%]'>
       <Marquee pauseOnHover >
-      {alumini.map((data)=>(
-        <MarqueCard  company={data.company} profile={data.profile} desc={data.desc}  />
+      {alumini.map((data,index)=>(
+        <MarqueCard key={index}  company={data.company} profile={data.profile} desc={data.desc}  />
       ))}
       </Marquee>
     </div>

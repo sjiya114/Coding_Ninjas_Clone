@@ -21,7 +21,7 @@ function Offer() {
         {/* bootcamp */}
         <div className='flex flex-row flex-wrap max-md:flex-col  space-y-4  space-x-6 max-md:space-x-0'>
          {cdata.map((data,index)=>(
-           <a href={`/bootcamp/${index}`} className='cursor-pointer'> <Bootcamp key={index}  icon={data.icon} heading={data.heading} candidate={data.candidate} time={data.time} problem={data.problem}   /></a>
+           <a href={`/bootcamp/${index}`} key={index} className='cursor-pointer'> <Bootcamp  icon={data.icon} heading={data.heading} candidate={data.candidate} time={data.time} problem={data.problem}   /></a>
          ))}
         </div>
      </div>
@@ -50,7 +50,7 @@ function Offer() {
       {10} modules={[Mousewheel,Pagination]} >
          
             {grad.map((grad,index)=>(
-              <SwiperSlide>
+              <SwiperSlide key={index}>
            <a href={`/iit/${index}`} className='cursor-pointer'> <CCard  college={grad.college} grp={grad.grp} duration={grad.duration} heading={grad.heading} profile={grad.profile} icon={grad.icon}    /></a>
            </SwiperSlide>
            ))}
@@ -86,8 +86,8 @@ function Offer() {
       {20} modules={[Mousewheel,Pagination]} >
        
             {clg.map((grad,index)=>(
-                <SwiperSlide>
-          <a href={`/internship/${index}`} className='cursor-pointer'>  <CCard  college={grad.college} grp={grad.grp} duration={grad.duration} heading={grad.heading} profile={grad.profile} icon={grad.icon}    /></a>
+                <SwiperSlide key={index}>
+          <a href={`/internship/${index}`}  className='cursor-pointer'>  <CCard  college={grad.college} grp={grad.grp} duration={grad.duration} heading={grad.heading} profile={grad.profile} icon={grad.icon}    /></a>
              </SwiperSlide>
            ))}
         
@@ -101,7 +101,7 @@ function Offer() {
         </div>
         <div className='flex flex-row flex-wrap max-md:flex-col space-y-4 space-x-6 max-md:space-x-0'>
          {gdata.map((data,index)=>(
-           <a href={`/newlaunch/${index}`} className='cursor-pointer'> <Bootcamp key={index}  icon={data.icon} heading={data.heading} candidate={data.candidate} time={data.time} problem={data.problem}   /></a>
+           <a  key={index} href={`/newlaunch/${index}`} className='cursor-pointer'> <Bootcamp  icon={data.icon} heading={data.heading} candidate={data.candidate} time={data.time} problem={data.problem}   /></a>
          ))}
         </div>
      </div>

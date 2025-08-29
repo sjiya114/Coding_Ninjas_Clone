@@ -14,8 +14,8 @@ function CCard( {profile,icon,heading,college,grp,duration}) {
        </div>
        <div className='flex flex-row py-4 justify-between'>
         <div className='flex flex-row space-x-2'>
-         {grp.map((img)=>(
-            <img className='w-8 h-8' src={img} alt="" />
+         {grp.map((img,index)=>(
+            <img key={index} className='w-8 h-8' src={img} alt="" />
          ))}
         </div>
          <p>{duration}</p>

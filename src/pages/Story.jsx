@@ -55,8 +55,8 @@ function Story() {
       slidesPerView: 3,
     },
   }} mousewheel={true} pagination={{type:"progressbar"}} spaceBetween={20} modules={[Pagination,Mousewheel]} >
-           {xdata.map((data)=>(
-           <SwiperSlide >
+           {xdata.map((data,index)=>(
+           <SwiperSlide key={index} >
              <div className='bg-black flex flex-col w-80 space-y-2 px-2 rounded-lg py-4 items-center justify-center'>
                 <img src={data.profile} className='w-30 h-30 rounded-full' alt="" />
                 <h1 className='text-gray-600 font-bold'>{data.name}</h1>

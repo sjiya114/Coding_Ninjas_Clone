@@ -16,8 +16,8 @@ function Faculty() {
         768: { slidesPerView: 2 }, 
         1260:{slidesPerView:3}
       }}   spaceBetween={20} modules={[Pagination,Mousewheel]} >
-        {facultyData.map((data)=>(
-           <SwiperSlide>
+        {facultyData.map((data,index)=>(
+           <SwiperSlide key={index}>
           <FacultyCard images={data.images} linkedin={data.linkedin} name={data.name} profile={data.profile} skill1={data.skill1} skill2={data.skill2} skill3={data.skill3} username={data.username} work={data.work}      />
            </SwiperSlide>
         ))} 
