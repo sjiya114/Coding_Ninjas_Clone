@@ -9,11 +9,12 @@ import "swiper/css/pagination"
 
 function Offer() {
   return (
-    <div>
-        <div className='flex justify-center items-center my-20'>
+    <div className=''>
+      <div className='border-l-2 ml-[18%] max-md:ml-6 max-md:mr-6 pl-10 border-black border-dotted'>
+        <div className='flex justify-center items-center py-20'>
           <h1 className='text-gray-300 font-bold max-md:text-6xl max-md:text-center  text-8xl  '  >OUR OFFERINGS</h1>
         </div>
-     <div  className='flex flex-col space-y-10 ml-[18%] max-md:ml-0 max-md:mx-4 my-20'>
+     <div  className='flex flex-col space-y-10  my-20'>
         <div className='flex flex-row space-x-6'>
             <h1 className='font-semibold text-lg max-md:ml-6'>Job Bootcamps</h1>
             <button className='bg-gray-300 font-semibold rounded-r-full px-2 py-1' >For graduates</button>
@@ -25,7 +26,7 @@ function Offer() {
          ))}
         </div>
      </div>
-     <div  className='flex flex-col space-y-10 ml-[18%] max-md:ml-6 max-md:mr-6 my-20'>
+     <div  className='flex flex-col space-y-10  my-20'>
         <div  className='flex flex-col space-y-4'>
         <h1 className='font-semibold text-lg'>IIT Certifications</h1>
         <button className='bg-yellow-900 w-fit font-semibold rounded-full text-white px-2 py-1' >For graduates</button>
@@ -58,7 +59,7 @@ function Offer() {
       </Swiper>
         {/* certification for graduates */}
      </div>
-     <div  className='flex flex-col space-y-10 ml-[18%] max-md:ml-6 max-md:mr-6 my-20'>
+     <div  className='flex flex-col space-y-10   my-20'>
          <div  className='flex flex-row space-x-6'>
         <button className='bg-yellow-900 font-semibold rounded-full text-white px-2 py-1' >For college students</button>
         </div>
@@ -92,6 +93,7 @@ function Offer() {
            ))}
         
       </Swiper>
+     </div>
      </div>
      <div className='flex flex-col  space-y-10 ml-[18%] max-md:ml-0 max-md:mx-4 my-20'>
         {/* new launches */}

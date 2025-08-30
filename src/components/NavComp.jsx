@@ -29,8 +29,8 @@ function NavComp() {
                     
                 </div>
                 {hidden1 && <div className='flex flex-col mt-4 space-y-2 text-blue-600'>
-                    <span>Full Stack Web Development with Gen AI</span>
-                    <span>Data Analytics with GenAI</span>
+                    <a href="/bootcamp/0"><span>Full Stack Web Development with Gen AI</span></a>
+                    <a href="/bootcamp/1"><span>Data Analytics with GenAI</span></a>
                 </div>}
              </div>
                <div >
@@ -63,8 +63,8 @@ function NavComp() {
                       <ChevronUp onClick={()=>{setHidden3(!hidden3)}}/>
                 </div>
                 {hidden3 && <div className='flex flex-col space-y-2 mt-4  text-blue-600'>
-                    <span>Advanced Certification in GenAI and Multi Agent Systems</span>
-                    <span>Advanced Certification in GenAI for Non-tech Professionals</span>
+                    <a href="/newlaunch/0"><span   >Advanced Certification in GenAI and Multi Agent Systems</span></a>
+                   <a href="/newlaunch/1"> <span>Advanced Certification in GenAI for Non-tech Professionals</span></a>
                 </div>}
              </div>
            </div>

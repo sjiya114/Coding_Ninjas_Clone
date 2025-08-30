@@ -2,7 +2,7 @@ import React from 'react'
 
 function Front({first,second,title,img1,img2}) {
   return (
-    <div className='flex flex-row  max-md:flex-col max-w-screen-xl mx-auto pt-10 text-white space-x-6 justify-center items-center'>
+    <div className='flex flex-row mt-20  max-md:flex-col max-w-screen-xl mx-auto pt-10 text-white space-x-6 justify-center items-center'>
     <div className='font-bold max-md:ml-10 max-md:mb-10'>
       <p className='text-xl'>India's first and only</p>
       <p className='text-2xl'> <span>{first}</span> in <span className='text-red-300'>{second} </span>  </p>

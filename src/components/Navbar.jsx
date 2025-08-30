@@ -16,24 +16,24 @@ const nav=useNavigate();
         <>
         <div className='flex flex-row overflow-hidden max-md:hidden  fixed top-0 left-0 right-0  justify-between  items-center px-40 max-lg:px-4 py-4  bg-white'>
             <img src={assets.image} alt="" />
-            <div className='flex flex-row space-x-8 max-lg:hidden'>
-               <div  onMouseEnter={() => setShowCard1(true)}
-        onMouseLeave={() => setShowCard1(false)} className='flex flex-row space-x-2'>
+            <div onMouseEnter={() => setShowCard1(true)} className='flex flex-row space-x-8 max-lg:hidden'>
+               <div
+         className='flex flex-row space-x-2'>
                 <NavLink className="text-blue-950 font-bold"  >Job BootCamp</NavLink>
                 <FaChevronDown className='mt-1'  />
-                 {showCard1 && <JobCard/>}
+                
             </div>
             <div  onMouseEnter={() => setShowCard2(true)}
-        onMouseLeave={() => setShowCard2(false)}  className='flex flex-row space-x-2'>
+         className='flex flex-row space-x-2'>
                 <NavLink className="text-blue-950 font-bold">IIT Certifications</NavLink>
                 <FaChevronDown className='mt-1'   />
-                {showCard2 &&  <IITCard/>}
+               
             </div>
-            <div onMouseEnter={() => setShowCard3(true)}
-        onMouseLeave={() => setShowCard3(false)}  className='flex flex-row space-x-2'>
+            <div  onMouseEnter={() => setShowCard3(true)}
+        className='flex flex-row space-x-2'>
                 <NavLink className="text-blue-950 font-bold"> New Launches </NavLink>
                 <FaChevronDown className='mt-1'     />
-                  {showCard3 && <NewCard/>}
+                 
             </div>
             </div>
             {/* <button>My Classroom</button> */}
@@ -48,7 +48,9 @@ const nav=useNavigate();
                   </div>
         
           {/* for college students */}
-         
+           {showCard1 && <JobCard setShowCard1={setShowCard1} showCard1={showCard1}   />}
+            {showCard2 &&  <IITCard setShowCard2={setShowCard2} showCard2={showCard2}    />}
+          {showCard3 && <NewCard setShowCard3={setShowCard3} showCard3={showCard3}   />}
         </>
     )
 }

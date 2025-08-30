@@ -11,9 +11,11 @@ import Fee3 from './Fee3'
 import Footer from './Footer'
 import FAQ from '../IIT Certification/FAQ'
 import { assets, ipdata } from '../../assets/assets'
+import CourseNavbar from '../CourseNavbar'
 function WebD() {
   return (
     <div className='bg-[#283141]'>
+         <CourseNavbar image="https://www.codingninjas.com/careercamp/wp-content/uploads/2025/01/Group-1437253905-1.png"   color="blue-800" btn="Enroll now"  />
       <Front first="Training and Internship Certification" second="Full Stack Web Development
 with Generative AI + DSA" title="IITM Pravartak"
        img1="https://www.codingninjas.com/careercamp/wp-content/uploads/2025/01/Group-1437253907.png" img2="https://www.codingninjas.com/careercamp/wp-content/uploads/2025/01/Group-1437253907.png"  />

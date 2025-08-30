@@ -16,10 +16,12 @@ import Register from './Register'
 import Middle from './Middle'
 import Subbar from './Subbar'
 import Syllabus from './Syllabus'
+import CourseNavbar from '../CourseNavbar'
 
 function GENAI() {
   return (
      <div>
+          <CourseNavbar image="https://files.codingninjas.com/logo-1735036634.webp"  color="orange-600" btn="Request Callback"  />
         <Register name="IITM Pravartak, TIH IIT Madras
 " heading="Advanced Certification in GenAI for Non-tech Professionals by IITM Pravartak
 " btn1="6 months" btn3="online classes" btn2="10+ Projects" desc1="Get an Adv. certification from IITM Pravartak" desc2="Experience the IIT life with campus immersion" desc3="Alumni Status by E&ICT IIT Guwahati"    />

@@ -17,6 +17,7 @@ import Middle from './Middle'
 import Subbar from './Subbar'
 import Syllabus from './Syllabus'
 import World from './World'
+import CourseNavbar from '../CourseNavbar'
 function DataScience() {
     const data=[{
     heading1:"Data-Driven World is Here",
@@ -33,6 +34,7 @@ function DataScience() {
   }]
   return (
        <div>
+             <CourseNavbar image="   https://files.codingninjas.in/new_cn_logo-29829.svg"  color="orange-600" btn="Request Callback"  />
         <Register name="NSDC" heading="Advanced Certification in Data Science with GenAI
 " btn1="9 months" btn2="online" btn3="for graduates" desc1="Get Industry ready with hands-on projects" desc2="Expert-led live classes with instant doubt support" desc3="AI-infused curriculum designed by experts"    />
         <Name name="The industry is looking for Data Scientists."/>

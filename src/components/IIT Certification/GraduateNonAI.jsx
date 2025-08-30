@@ -17,6 +17,7 @@ import Middle from './Middle'
 import Subbar from './Subbar'
 import Syllabus from './Syllabus'
 import World from './World'
+import CourseNavbar from '../CourseNavbar'
 function GraduateNonAI() {
     const data=[{
     heading1:"A Gen AI first era is coming",
@@ -33,6 +34,7 @@ function GraduateNonAI() {
   }]
   return (
     <div>
+        <CourseNavbar image="   https://files.codingninjas.in/new_cn_logo-29829.svg"  color="orange-600" btn="Request Callback"  />
         <Register name="NSDC" heading="Advanced Certification in GenAI for Non-tech Professionals
 " btn1="6 Months" btn3="online" btn2="10+ Projects" desc1="Get Industry ready with hands-on projects" desc2="Expert-led live classes with instant doubt support" desc3="AI-infused curriculum designed by experts"    />
         <Name name="Roles evolving globally, GenAI fuels the shift."/>

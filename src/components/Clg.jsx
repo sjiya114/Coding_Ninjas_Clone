@@ -18,21 +18,21 @@ function Clg() {
                 <img className='w-10 h-8' src={assets.iitm} alt="" />
                 <div className='flex flex-col space-y-2'>
                     <p>IITM Pravartak,TIH IIT Madras</p>
-                    <p>Training and Internship certification in advanced DSA</p>
+                   <a href="/internship/0"> <p>Training and Internship certification in advanced DSA</p></a>
                 </div>
             </div>
             <div className='flex flex-row space-x-4'>
                 <img className='w-10 h-8' src={assets.iitg} alt="" />
                 <div className='flex flex-col space-y-2'>
                     <p>E&ICT Academy,IIT Guwahati</p>
-                    <p>Training and Internship certification in Data Analytics</p>
+                   <a href="/internship/1"> <p>Training and Internship certification in Data Analytics</p></a>
                 </div>
             </div>
              <div className='flex flex-row space-x-4'> 
                 <img className='w-10 h-8' src={assets.iitm} alt="" />
                 <div className='flex flex-col space-y-2'>
                     <p>IITM Pravartak,TIH IIT Madras</p>
-                    <p>Training and Internship certification in Full Stack Web Development</p>
+                   <a href="/internship/2"><p>Training and Internship certification in Full Stack Web Development</p></a>
                 </div>
             </div>
           </div>

@@ -19,14 +19,14 @@ function Grads() {
                 <img className='w-10 h-8' src={assets.iitg} alt="" />
                 <div className='flex flex-col space-y-2'>
                     <p className='text-blue-800'>E&ICT Academy,IIT Guwahati</p>
-                    <p>PG Certification in Data Analytics with GenAI</p>
+                    <a href="/iit/0"><p>PG Certification in Data Analytics with GenAI</p></a>
                 </div>
             </div>
              <div className='flex flex-row space-x-4'> 
                 <img className='w-10 h-8' src={assets.iitm} alt="" />
                 <div className='flex flex-col space-y-2'>
                     <p className='text-blue-800'>IITM Pravartak,TIH IIT Madras</p>
-                    <p>Advanced Certification in GenAI for Non-tech Professionals</p>
+                   <a href="/iit/1"> <p>Advanced Certification in GenAI for Non-tech Professionals</p></a>
                 </div>
             </div>
           </div>

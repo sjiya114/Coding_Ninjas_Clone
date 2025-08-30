@@ -16,10 +16,11 @@ import Register from './Register'
 import Middle from './Middle'
 import Subbar from './Subbar'
 import Syllabus from './Syllabus'
-
+import CourseNavbar from '../CourseNavbar'
 function DataAnalytics() {
   return (
     <div>
+         <CourseNavbar image="https://files.codingninjas.com/iitg-logo-1732038065.png"  color="orange-600" btn="Download brochure"  />
       <Register name="E&ICT Academy IIT Guwahati" heading="PG Certification in Data Analytics with GenAI by E&ICT IIT Guwahati" desc1="Get a PG certification from E&ICT IIT Guwahati" desc2="Experience the IIT life with campus immersion" desc3="Alumni Status by E&ICT IIT Guwahati" btn1="6 months" btn2="online" btn3="for graduates"    />
         <Name name="The industry is looking for Data Analysts."/>
           <Subbar/>

@@ -10,10 +10,12 @@ import Marque from './Marque'
 import Fee2 from './Fee2'
 import Footer from './Footer'
 import FAQ from '../IIT Certification/FAQ'
+import CourseNavbar from '../CourseNavbar'
 import { assets, ipdata } from '../../assets/assets'
 function DA() {
   return (
     <div className='bg-blue-950'>
+           <CourseNavbar image="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/12/iitg-logo-1732038065-1024x144.png"  color="blue-800" btn="Enroll now"  />
         <Front first="Student Training cum Internship
 Program" second="Data Analytics with Gen AI" title="E&ICT Academy, IIT Guwahati"
        img1="https://www.codingninjas.com/careercamp/wp-content/uploads/2024/11/2.png" img2="https://www.codingninjas.com/careercamp/wp-content/uploads/2025/01/Group-1437253907.png"  />
