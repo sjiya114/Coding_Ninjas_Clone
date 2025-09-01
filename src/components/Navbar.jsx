@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom';
 import { FaChevronDown } from "react-icons/fa";
 import { assets } from '../assets/assets';
@@ -7,7 +7,29 @@ import image from '../assets/image.svg'
 import JobCard from './JobCard';
 import IITCard from './IITCard';
 import NewCard from './NewCard';
+import {getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut} from 'firebase/auth'
+import FirebaseApp from '../firebase/firebase.jsx';
 function Navbar() {
+const [user,setUser]=useState(null);
+const auth=getAuth(FirebaseApp);
+const googleAuth=new GoogleAuthProvider();
+const stateChange=()=>
+{
+    onAuthStateChanged(auth,(user)=>{
+        if(user)
+            setUser(user);
+        else
+            setUser(null);
+    })
+}
+const googleSignIn=()=>
+{
+    signInWithPopup(auth,googleAuth);
+}
+useEffect(()=>
+{
+stateChange();
+},[])
 const nav=useNavigate();
  const [showCard1, setShowCard1] = useState(false);
   const [showCard2, setShowCard2] = useState(false);
@@ -37,7 +59,8 @@ const nav=useNavigate();
             </div>
             </div>
             {/* <button>My Classroom</button> */}
-            <button className='text-white bg-orange-600 px-4 py-2 rounded-lg '  >Login</button>
+            {!user &&<button onClick={()=>{googleSignIn()}} className='text-white cursor-poi bg-orange-600 px-4 py-2 rounded-lg '  >Login</button>}
+             {user && <button onClick={()=>{signOut(auth)}} className='text-white cursor-pointer bg-orange-600 px-4 py-2 rounded-lg '  >Logout</button>}
         </div>
          <div className='flex flex-row  md:hidden justify-between bg-white'>
                      <img src={image} className='top-0  fixed left-0 right-0 mt-6 ml-6' alt="" />
@@ -46,7 +69,8 @@ const nav=useNavigate();
                          <Menu onClick={()=>{nav("/nav")}} color='white'/>
                      </button>
                   </div>
-        
+              {!user &&<button onClick={()=>{googleSignIn()}} className='text-white fixed bottom-0 left-0 w-full right-0 md:hidden cursor-pointer bg-orange-600 px-4 py-4  rounded-lg '  >Login</button>}
+             {user && <button onClick={()=>{signOut(auth)}} className='text-white fixed bottom-0 w-full left-0 right-0  md:hidden cursor-pointer bg-orange-600 px-4 py-4 rounded-lg '  >Logout</button>}
           {/* for college students */}
            {showCard1 && <JobCard setShowCard1={setShowCard1} showCard1={showCard1}   />}
             {showCard2 &&  <IITCard setShowCard2={setShowCard2} showCard2={showCard2}    />}
